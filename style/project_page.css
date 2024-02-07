@@ -38,25 +38,47 @@ h2 {
     line-height: 1.6;
     font-size: large;
 }
+
+.questions h2{
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
 .questions ul h3 {
     background: bisque;
     padding: 20px;
     border-radius: 15px;
     width: fit-content;
 }
+
+.files h2{
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.files div {
+    align-content: center;
+    align-items: center;
+}
+
 .files div h3 {
     padding: 20px;
     width: fit-content;
     background: bisque;
     border-radius: 15px;
 }
-.files div li {
-    padding: 10px;
-    border-radius: 8px;
-    background: aquamarine;
-    margin: 10px;
-    width: 100px;
+
+.files h6 {
+    font-size: large;
+    background: coral;
+    border-radius: 15px;
+    padding: 20px;
+    text-decoration-thickness: 15px;
 }
+
 .disclaimer {
     position: relative;
     bottom: 0;
