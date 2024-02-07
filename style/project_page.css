@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("../assets/pbg.jpeg");
+    background-size: contain;
+}
+h1 {
+    color: #333;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: chartreuse;
+}
+h2 {
+    background: #ffffff;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 20px;
+    color: #666;
+}
+
+
+#intro{
+    background: #ffffff;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+    justify-items: center;
+    text-align: center;
+    font-size: xxx-large;
+}
+.instructions p {
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 15px;
+    line-height: 1.6;
+    font-size: large;
+}
+.questions ul h3 {
+    background: bisque;
+    padding: 20px;
+    border-radius: 15px;
+    width: fit-content;
+}
+.files div h3 {
+    padding: 20px;
+    width: fit-content;
+    background: bisque;
+    border-radius: 15px;
+}
+.files div li {
+    padding: 10px;
+    border-radius: 8px;
+    background: aquamarine;
+    margin: 10px;
+    width: 100px;
+}
+.disclaimer {
+    position: relative;
+    bottom: 0;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.disclaimer h5 {
+    color: #333;
+    margin-top: 0;
+}
+.disclaimer p {
+    color: #666;
+    line-height: 1.6;
+}
