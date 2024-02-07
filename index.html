@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
     <title>B7 Project Work</title>
+    <script>
+        window.onload = function() {
+            document.querySelector('form').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent form submission
+                var passcode = document.querySelector('input[name="passcode"]').value;
+                if (passcode === '4673') {
+                    window.location.href = 'pages/project_page.html'; // Redirect to another webpage
+                } else {
+                    alert('Incorrect passcode. Please try again.'); // Show alert for incorrect passcode
+                }
+            });
+        };
+    </script>
 </head>
 <body>
     <h1>Welcome</h1>
